@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
+import Card from './Card/Card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Header />
+      <div className="main">
+        <h1>Barnatrygging</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Barnatrygging Varðar tryggir börnin okkar fyrir hugsanlegum áföllum vegna slysa og veikinda sem geta haft varanlegar afleiðingar.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
