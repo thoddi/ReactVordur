@@ -1,0 +1,18 @@
+.dropdown{
+    height: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.dropdown.active{
+    height: 13em;
+    border-bottom: 1px solid lightgray;
+}
+
+.MuiFormControl-root.dropdown-container{
+    margin: 1em;
+}
+
+.MuiFormControlLabel-root{
+    margin-top: 1em;
+}
