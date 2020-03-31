@@ -2,6 +2,7 @@
     height: 0;
     transition: all 1s;
     overflow: hidden;
+    color: black;
 }
 
 .dropdown.active{

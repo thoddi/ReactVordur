@@ -6,6 +6,10 @@
     margin-top: 2em;
 }
 
+.card.changing{
+    color: gray;
+}
+
 .title{
     border-bottom: 1px lightgray solid;
     padding: 1em;
@@ -59,5 +63,13 @@
 }
 
 .summary span strong{
+    color: black;
+}
+
+.changing .summary span strong{
+    color: gray;
+}
+
+.valueChanger{
     color: black;
 }

@@ -29,14 +29,17 @@ class Card extends React.Component {
     }
 
     render(){
+
+        const cardClass = "card " + (this.state.dropdown ? "changing" : "")
+
         return (
-            <div className="card">
+            <div className={cardClass}>
                 <div className="title">
                     <p className="kt">010107-2038</p>
                     <p className="name">Tómas Atli Björgvinsson</p>
                 </div>
                 <div className="options">
-                    <div>
+                    <div className="valueChanger">
                         <div>
                             <small>Bótafjárhæð</small>
                         </div>
